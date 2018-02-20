@@ -21,16 +21,16 @@ namespace DinkPOC.Controllers
                 GlobalSettings =
                 {
                     ColorMode = ColorMode.Color,
-                    Orientation = Orientation.Portrait,
-                    PaperSize = PaperKind.A4,
-                    Margins = new MarginSettings() { Top = 10 },
+                    //Orientation = Orientation.Portrait,
+                    //PaperSize = PaperKind.A4,
+                    //Margins = new MarginSettings() { Top = 10 },
                     Out = @"C:\temp\dinktopdf-test.pdf",
                 },
                 Objects =
                 {
                     new ObjectSettings()
                     {
-                        Page = "https://quick.med-enroll.com",
+                        Page = "https://monatglobal.com",
                     },
                 }
             });
